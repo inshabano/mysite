@@ -1,0 +1,193 @@
+
+a{
+    color: #c3f4f6;
+    font-family: uchen,serif;
+    margin: 15px;
+    text-decoration: none;
+ }
+ a:hover{
+    color:  #bde3dc;   
+ }
+
+body{
+    margin: 0;
+    font-family:uchen,serif ;
+    text-align: center;
+    background-color: #c2f1f3;  
+    }
+
+.btn {
+    background:  #1edbe1;
+    background-image: -webkit-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top,  #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom,  #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+   
+     }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+    }
+
+  .cloud1{
+    position: absolute;
+    left: 20px;
+    width: 20%;
+    top: 150px;
+    }
+
+.cloud2{
+    position: absolute;
+    right: 20px;
+    width: 20%;
+    top: 0px;
+  }
+
+.cloud3{
+    position: absolute; /* position: relative; used for positioning of element relative to its original position.
+                           position: absolute; used for positioning of element relative to its parent(ie body/div etc).
+                           position:fixed; positioned relative to the viewport,stays in same place;*/
+    left: 250px;
+    top: 300px;
+    
+  }
+  .contact-msg{
+    width: 40%;
+    margin: 60px auto;
+  }
+  .copyright{
+    color: #dcefeb;
+    font-size: small;
+  }
+
+h1{
+    margin-top: 0;
+    width: 10%;
+    display: inline-block;
+    font-family: sacramento, sans-serif;
+    font-size: 4em;      /*    100%=16px=1em  */
+    color: #66BFBF;
+    line-height:1;
+       
+  }
+
+h2{
+    font-family: cursive;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+  
+
+  }
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #11999E;
+ }
+
+.hide{
+    display: none; /*visibility:hidden; it hides the content but space is there for it
+                    display:none; it hides the content and left no space..as if the content was never there*/
+  }
+
+hr{
+    width: 30%;
+    border: dashed #bde3dc;
+    margin: 100px auto;
+  }
+
+.intro {
+    width:30%;
+    margin: auto;
+
+  }
+
+.lower{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    
+   
+  }
+
+.middle{
+    margin: 80px;
+   
+   
+  } 
+
+.mountain1{
+    position: absolute;
+    left: 200px;
+    object-fit: cover;
+    
+  }
+
+.mountain2{
+    position: relative;
+    left: 120px;
+  }
+
+.pic{
+    width: 25%;
+}
+
+.picture1 {
+    width: 25%;
+    float: left;
+    margin: auto 80px auto auto;
+  
+  }
+
+.picture2{
+    width: 25%;
+    float: right;     /* clear:right/left; can be used to unfloat images from text line*/
+    margin-left: 80px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.top{
+    color: #9e91e7;
+    font-weight: normal;
+
+}
+
+.upper{
+   
+   padding: 60px;
+    object-fit: contain;
+    text-align: center;
+    position: relative;
+    background-color: #c2f1f3;  
+
+}
+
+.web{
+    text-decoration: underline;
+}
+.msg{
+      padding: 10px;
+}
+
+
+ 
